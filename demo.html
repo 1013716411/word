@@ -1,255 +1,101 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="zh-CN">
+
 <head>
+
 <meta charset="utf-8">
-	<title>我的作品</title>
-  
-<script src="images3/js/jquery.js?ver=v1.6.4"></script>
-<script src="images3/js/html5zoo.js?ver=v0.0.1"></script>
-<script src="images3/js/lovelygallery.js?ver=v0.0.1"></script>
 
+<title>网易云音乐</title>
 
-	<style type="text/css">
-	*{margin: 0 auto; position: 0px;}
+<link rel="stylesheet" href="css/jquery.fullPage.css">
 
+<script src="js/jquery-1.8.3.min.js"></script>
 
-a{
-	text-decoration:none;
-}
-li{
-	list-style-type:none;
-}
+<script src="js/jquery-ui-1.10.3.min.js"></script>
 
-.top{
-	width: 1100px;
-	height:120px;
-	position: relative;	
-    background-color: #444444;	
-}
-.t0 {
-        position: absolute;
-        top: 35px;
-        right: 375px;
-        
-    }
- .t0 a {
-    	padding: 20px;
-    	color:	#C0C0C0;
-    }
-    .t1 {
-    	position: absolute;
-		top: 100px;
-		right: 400px;
-		border:1px solid #fff;		
-    }
-    .t1 input{
-    	width: 300px;
-    	height: 30px;
-    }
-    .t1 img{
-    	position: absolute;
-    	top: 6px;
-    	right: 5px;
-    }
- .t2{
- 	position: absolute;
- 	top: 20px;
- 	left: 30px;	
- }
- .t3{
- 	width: 550px;
- 	height: 50px;
- 	color: blue;
- 	position: absolute;
- 	top: 30px;
- 	right: 230px;
- 	bottom:30px;
- 	
- }
- .t3 a{
-          color: #00FFFF
- }
- .t3 li:hover{
-	
-	background-color:#F0FFFF ;	
-}
+<script src="js/jquery.fullPage.min.js"></script>
 
- .t3 li {
- 	line-height: 50px;
-    text-align: center;
- 	padding: 0 25px;
- 	float: left;
-
-
- }
- .ad{
- 	width: 100%;
- 	height:520px;
- 	position: relative;
- 	top: 35px;
-   overflow: hidden;
-}
-.s0 img{
-    position: absolute;
-    top: 750px;
-}
-
-.s1{
-    position: absolute;
-    top: 1100px;
-    left: 50%
-}
-.s1{
-           width: 280px;
-           height: 100px;
-           background-color:transparent;
-}
-.s1 a{
-    color: #ffffff;
-    font-size:35px;
-}
-
-.s2{
-    position: absolute;
-    top: 1200px;
-    left: 30%
-}
-
-.s2{
-    width: 280px;
-     height: 100px;
-     background-color:transparent; ;
-}
-
-.s2 a{
-    color: #ffffff ;
-    font-size:35px;
-}
-
-
- .jw{
- 	width: 1200px;
- 	height: 1000px;
- 	position: relative;
- 	bottom: -600px;
- 	background-color: 	
- 	
- } 
- .jw1 {
- 	position: absolute;
- 	left: 0px;
- 	top: 125px;
-    width:100px;
-height:100px;
-background:yellow;
-transition:width 2s, height 2s;
--moz-transition:width 2s, height 2s, -moz-transform 2s; 
--webkit-transition:width 2s, height 2s, -webkit-transform 2s;
--o-transition:width 2s, height 2s, -o-transform 2s;
-
- }
-
- .jw1:hover,.jw2:hover,.jw3:hover,.jw4:hover{
-width:200px;
-height:200px;
-transform:rotate(180deg);
--moz-transform:rotate(180deg); 
--webkit-transform:rotate(180deg); 
--o-transform:rotate(180deg); 
-
-
- }
- .jw2{
-    position: absolute;
-    right: 0px;
-    top:125px; 
-  width:600px;
-height:100px;
-background:yellow;
-transition:width 2s, height 2s;
--moz-transition:width 2s, height 2s, -moz-transform 2s; 
--webkit-transition:width 2s, height 2s, -webkit-transform 2s; 
--o-transition:width 2s, height 2s, -o-transform 2s;
-
- }
-.jw3{
-    position: absolute;
-    left: 0px;
-    top: 525px;
-       width:100px;
-height:100px;
-background:yellow;
-transition:width 2s, height 2s;
--moz-transition:width 2s, height 2s, -moz-transform 2s; 
--webkit-transition:width 2s, height 2s, -webkit-transform 2s;
--o-transition:width 2s, height 2s, -o-transform 2s;
-}
-.jw4{
-    position: absolute;
-    right: 0px;
-    top: 525px;
-       width:600px;
-height:100px;
-background:yellow;
-transition:width 2s, height 2s;
--moz-transition:width 2s, height 2s, -moz-transform 2s; 
--webkit-transition:width 2s, height 2s, -webkit-transform 2s;
--o-transition:width 2s, height 2s, -o-transform 2s;
-}
-
-
-
-		</style>
+<script type="text/javascript" src="js/wy.js"></script>
 
 </head>
+
+
+
 <body>
 
+<div class="section section1" style="background: url(images/1.jpg);background-size:cover;">
+<nav class="nav">
+	<ul>
+		<li class="nav-a"><a href="#">主页</a></li>
+		<li><a href="##">消息</a></li>
+		<li><a href="https://1013716411.github.io/cjb/demo.html"  target="_blank">关于我</a></li>
+		<li><a href="https://1013716411.github.io/new-test/demo.html">其他</a></li>
+	</ul>
+</nav>
+	<h1 style="">Hello</h1>
 
-<div class="top">    <!--头部开始 -->  
-<div class="t1">                 <!--搜索框开始 -->
-<form action="" method="post" >
-	<input type="text" class="sob" onfocus="if (value =='搜索电影'){value =''}" onblur="if (value ==''){value='搜索'}"} style="color:#cccccc"/>
-	<a href=""><img src="img/0.jpg"></a>
-	</form>
-</div> 
-                <!--搜索框结束 -->
-<div class="t2"><a href="#"><img src="img/t2.png"></a></div>
-<div class="t3">
-<ul>
-<li><a href="#">BLOG LIBRARY</a></li>
-<li><a href="#">USERS</a></li>
-<li><a href="#">ABOUT</a></li>
-</ul>
+	<h2 style="">这是我的作品,接下来我们来介绍下网易云音乐</h2>
+    <a href="#page2" class="btn-white">next</a>
 </div>
-</div>   <!--头部结束 -->
-<div style="margin:0px auto;width:1100px; margin-top:50px">
-    <div id="html5zoo-1" style="display:block;position:relative;margin:0px auto 60px;">
-        <ul class="html5zoo-slides" style="display:none;">
-            <li><a href="###" target="_blank"><img src="images3/001/001.png" ></a></li>
-            <li><img src="images3/001/002.png"></li>
-            <li><a href="###" target="_blank"><img src="images3/001/003.png" ></a></li>
-            <li><a href="###" target="_blank"><img src="images3/001/004.png" ></a></li>
-            <li><a href="###" target="_blank"><img src="images3/001/005.png" ></a></li>
-            <li><a href="###" target="_blank"><img src="images3/001/006.png"></a></li>
-          
-        </ul>
-       
-    </div>
+
+<div class="section section2" style="background: url(images/2.jpg);background-size:cover;">
+
+     <h1>网易云音乐</h1>
+
+	<p style="">网易云音乐是一款由网易开发的音乐产品，<br/>依托专业音乐人、DJ、好友推荐及社交功能，<br/>在线音乐服务主打歌单、社交、大牌推荐和音乐，<br/>以歌单、DJ节目、社交、地理位置为核心要素，<br/>主打发现和分享,还有各种段子。</p>
+
+	<span><img src="images/0.png" alt=""></span>
+
 </div>
-             <!--轮播结束 -->
-    
-<div class="s0">    <!--按钮开始 -->
-<div><img src="img/3.png"></div>
-<button class="s1"><a href="">Click to enter</a></button>
-<button class="s2"><a href="">Go to my blog</a></button>
-</div>             <!--按钮结束 -->
-            
-<div class="jw">      <!--结尾开始 -->
-<div class="jw1"><a href=""><img src="img/c1.png"></a></div>
-<div class="jw2"><a href=""><img src="img/c2.png"></a></div>
-<div class="jw3"><a href=""><img src="img/c3.png"></a></div>
-<div class="jw4"><a href=""><img src="img/c4.png"></a></div>
+
+<div class="section section3" style="background: url(images/3.jpg);background-size:cover;text-align: center;">
+
+	<h1>功能介绍</h1>
+
+	<p>国内首个以“歌单”作为核心架构的音乐APP，国内最大、最优质的“歌单”库，批量遇见好听音乐更加简单；轻松创建“歌单”。</p>
+
+	<p>“乐评”氛围，同一首歌，通过其他人的评论，体会当中故事、体会同样的感受，在评论中找到共鸣。</p>
+
+	<img src="images/1.png" alt="">
+
 </div>
-            <!--结尾结束 -->
+
+<div class="section section4" style="background: url(images/4.jpg);background-size:cover;text-align: center;">
+
+	<h1>发展历程/宣传方式</h1>
+
+	<p>TalkingData移动数据研究中心发布的数据显示，2014年1月至9月份，网易云音乐以36.5%的用户月增长率居所有音乐类APP的第一位，超过QQ音乐等同行产品。</p>
+
+	<p>百度中国好应用“2014年度优秀视觉设计奖”等，中国十佳移动互联网应用、2014中国软件风云榜“编辑推荐奖”。</p>
+     
+    <img src="images/2.png" alt="">
+
+</div>
+<div class="section section5" style="background: url(images/5.jpg);background-size:cover">
+   
+	<h1 style="text-align: center;">使用指南</h1>
+
+ <p>1.用户可以根据自己的喜好创建、收藏、分享歌单，应用以用户创造的歌单为基本线索。<br/>
+	2.用户可以导入原有手机通讯录、SNS关系，或者借助网易云音乐自身LBS功能构建音乐社交圈。<br/>
+	3.用户可以建立自己的主页，可以互相关注，分享音乐，用户的动态在这个圈子里即时呈现。<br/>
+	4.网易云音乐包含DJ及音乐人独家自制节目。<br/>
+	5.应用指纹技术，通过听取音乐旋律，帮助用户找到歌曲。<br/>
+	</p>
+
+	<img src="images/3.png" alt="">
+
+</div>
+
+<div class="section section6" style="background: url(images/6.jpg);background-size:cover;text-align: center;">
+
+	<h1>联系作者</h1>
+
+	<p>邮箱: liang620523@163.com</p>
+	<a href="http://music.163.com/#/my/m/music/playlist?id=313894532"  target="_blank"><span style="color:#663366; font-size: 20px;">彩蛋</span>:网易云音乐</a>
+     
+</div>
+
 </body>
+
 </html>
