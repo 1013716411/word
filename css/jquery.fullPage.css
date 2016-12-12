@@ -189,9 +189,11 @@ html, body {
 
 .section5 img{ position: relative;left:-120%;margin-left:150px;margin-top:-450px;width:45%;}
 
-.section6 p{display: none; font-size: 20px;}
+.section6 h2{display: none; font-size: 20px;}
 
-.section6 a{position: relative; bottom: -120%;
+.section6 p{position: relative; bottom: -120%;}
+
+.section6 a{
     font-size: 25px;  
     padding: 15px 50px 15px;
     border: 1px solid #ffffff;
@@ -199,8 +201,7 @@ html, body {
     font-size: 15px;
     text-transform: uppercase;
     color: #ffffff;
-    background-color: transparent;
-}
+    background-color: transparent;}
 
 .section6 a:hover{border: 1px solid #000000;color: #000000;}
 

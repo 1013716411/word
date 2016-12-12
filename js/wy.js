@@ -92,13 +92,13 @@ $(document).ready(function() {
 
 			if(index == 6){
 
-				$('.section6').find('p').fadeIn(2000);
+				$('.section6').find('h2').fadeIn(2000);
 
 			}
 
 			if(index == 6){
 
-				$('.section6').find('a').delay(3000).animate({
+				$('.section6').find('p').delay(4000).animate({
 
 					bottom: '0'
 
@@ -189,12 +189,12 @@ $(document).ready(function() {
              //第六页
 			if(index == '6'){
 
-				$('.section6').find('p').fadeOut(2000);
+				$('.section6').find('h2').fadeOut(2000);
 
 			}
 			if(index == '6'){
 
-				$('.section6').find('a').delay(3000).animate({
+				$('.section6').find('p').delay(4000).animate({
 
 					bottom: '-120%'
 
