@@ -1,33 +1,33 @@
-/**
- * fullPage 1.4.5
- * https://github.com/alvarotrigo/fullPage.js
- * MIT licensed
- *
- * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
- */
+    /**
+     * fullPage 1.4.5
+     * https://github.com/alvarotrigo/fullPage.js
+     * MIT licensed
+     *
+     * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
+     */
 
  *{ text-decoration:none;font-family: "Microsoft YaHei","SimSun","SimHei"}
 html, body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 #superContainer {
-    height: 100%;
-    position: relative;
+   height: 100%;
+   position: relative;
 }
 .section {
-    position: relative;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
+   position: relative;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+    }
 .slide {
     float: left;
-}
+    }
 .slide, .slidesContainer {
     height: 100%;
     display: block;
-}
+    }
 .slides {
     height: 100%;
     overflow: hidden;
@@ -36,7 +36,7 @@ html, body {
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-}
+    }
 .section.table, .slide.table {
     display: table;
     width: 100%;
@@ -73,7 +73,7 @@ html, body {
 }
 .scrollable {
     overflow: scroll;
-}
+    }
 .easing {
     -webkit-transition: all 0.7s ease-out;
     -moz-transition: all 0.7s ease-out;
@@ -105,13 +105,11 @@ html, body {
 .fullPage-slidesNav.top {
     top: 17px;
 }
-#fullPage-nav ul,
-.fullPage-slidesNav ul {
-  margin: 0;
-  padding: 0;
+#fullPage-nav ul,.fullPage-slidesNav ul {
+    margin: 0;
+    padding: 0;
 }
-#fullPage-nav li,
-.fullPage-slidesNav li {
+#fullPage-nav li,.fullPage-slidesNav li {
     display: block;
     width: 14px;
     height: 13px;
@@ -121,8 +119,7 @@ html, body {
 .fullPage-slidesNav li {
     display: inline-block;
 }
-#fullPage-nav li a,
-.fullPage-slidesNav li a {
+#fullPage-nav li a,.fullPage-slidesNav li a {
     display: block;
     position: relative;
     z-index: 1;
@@ -131,12 +128,10 @@ html, body {
     cursor: pointer;
     text-decoration: none;
 }
-#fullPage-nav li .active span,
-.fullPage-slidesNav .active span {
+#fullPage-nav li .active span,.fullPage-slidesNav .active span {
     background: #333;
 }
-#fullPage-nav span,
-.fullPage-slidesNav span {
+#fullPage-nav span,.fullPage-slidesNav span {
     top: 2px;
     left: 2px;
     width: 8px;
@@ -162,36 +157,127 @@ html, body {
 .fullPage-tooltip.left {
     left: 20px;
 }
- /*css*/
+/*css*/
 
- .section {color: #ffffff; line-height:40px; letter-spacing:2px;}
+.section {
+    color: #ffffff; 
+    line-height:40px; 
+    letter-spacing:2px;
+}
 
-.section1{text-align: center;letter-spacing:5px;}
+.section1{
+    text-align: center;
+    letter-spacing:5px;
+}
 
-.section1 h1{font-size:50px;padding-bottom:10px}
+.section-1{
+    background: url(../images/1.jpg);
+    background-size:cover;
+}
 
-.section1 h2{font-size:25px;padding-bottom:50px}
+.section1 h1{
+    font-size:50px;
+    padding-bottom:10px;
+}
 
-.section2 h1{ position: relative; left: -120%;margin-left: 350px;}
+.section1 h2{
+    font-size:25px;
+    padding-bottom:50px;
+}
 
-.section2 p{ position: relative; bottom: -120%;margin-left: 200px;width:500px;border-bottom: 2px solid #ffffff;text-align: center;}
+.section2 h1{
+    position: relative; 
+    left: -120%;
+    margin-left: 350px;
+}
 
-.section2 img{ position: relative;right:-120%;margin-top:-400px;margin-left:800px;width:45%;}
+.section-2{
+    background: url(../images/2.jpg);
+    background-size:cover;
+}
 
-.section3 img { position: relative; bottom: -120%;width: 45%;}
+.section2 p{
+    position: relative; bottom: -120%;
+    margin-left: 200px;
+    width:500px;
+    border-bottom: 2px solid #ffffff;
+    text-align: center;
+}
 
-.section3 p {display: none;}
+.section2 img{
+    position: relative;
+    right:-120%;
+    margin-top:-400px;
+    margin-left:800px;
+    width:45%;
+}
 
-.section4 h1,.section4 p,.section4 img { display: none;}
+.section-3{
+    background: url(../images/3.jpg);
+    background-size:cover;
+    text-align:center;
+}
 
+.section3 img {
+    position: relative;
+    bottom: -120%;
+    width: 45%;
+}
 
-.section5 p{ position: relative; bottom: -120%;margin-left: 60%;width:500px;margin-top:10%;text-align: center;}
+.section3 p {
+    display: none;
+}
+.section-4{
+    background: url(../images/4.jpg);
+    background-size:cover;
+    text-align: center;
+}
 
-.section5 img{ position: relative;left:-120%;margin-left:150px;margin-top:-450px;width:45%;}
+.section4 h1,.section4 p,.section4 img {
+    display: none;
+}
 
-.section6 h2{display: none; font-size: 20px;}
+.section-5{
+    background: url(../images/5.jpg);
+    background-size:cover;
+}
 
-.section6 p{position: relative; bottom: -120%;}
+.section5 h1{
+    text-align: center;
+}
+
+.section5 p{
+    position: relative;
+    bottom: -120%;
+    margin-left: 60%;
+    width:500px;
+    margin-top:10%;
+    text-align: center;
+}
+
+.section5 img{
+    position: relative;
+    left:-120%;
+    margin-left:150px;
+    margin-top:-450px;
+    width:45%;
+}
+
+.section-6{
+    background: url(../images/6.jpg);
+    background-size:cover;
+    text-align: center;
+}
+
+.section6 h2{
+    display: none;
+    font-size: 20px;
+}
+
+.section6 p{
+    position: relative;
+    bottom: -120%;
+}
 
 .section6 a{
     font-size: 25px;  
@@ -203,8 +289,10 @@ html, body {
     color: #ffffff;
     background-color: transparent;}
 
-.section6 a:hover{border: 1px solid #000000;color: #000000;}
-
+.section6 a:hover{
+    border: 1px solid #000000;
+    color: #000000;
+}
 
 .nav{
     position: absolute;
@@ -225,7 +313,6 @@ html, body {
     display:block; 
     width:90px
 }
-
 .nav a{
     color: #ffffff;
 }
@@ -249,8 +336,8 @@ html, body {
 }
 
 .nav-a a:hover{
-     color: #000000;
-     border: 1px solid #000000; 
+   color: #000000;
+   border: 1px solid #000000; 
 }
 
 .btn-white {
@@ -264,31 +351,31 @@ html, body {
 }
 
 .btn-white:hover{
-       background:#000000;
-       opacity: 0.6;
+ background:#000000;
+ opacity: 0.6;
 }
 
 
 @media screen and ( max-width:600px){
-            .nav {left:0px;}
-            .section1 h1{font-size:30px;}
-            .section1 h2{font-size:15px;}
-            .section2 p{margin-left: -50px;}
-            .section2 h1{margin-left: 100px;}
-        }
-        @media screen and (min-width:601px) and (max-width:1000px){
-            .section1 h1{font-size:40px;}
-            .section1 h2{font-size:20px;}
-            .nav {left:0px;}
-            .section2 p{margin-left: 150px;}
-            .section2 h1{margin-left: 250px;}
-        }   
-        @media screen and (min-width:1001px){
-            .section1 h1{font-size:50px;}
-            .section1 h2{font-size:25px;}
-             .nav {left: 250px;}
-            .section2 p{margin-left: 200px;}
-            .section2 h1{margin-left: 350px;}
-        }  
+    .nav {left:0px;}
+    .section1 h1{font-size:30px;}
+    .section1 h2{font-size:15px;}
+    .section2 p{margin-left: -50px;}
+    .section2 h1{margin-left: 100px;}
+}
+@media screen and (min-width:601px) and (max-width:1000px){
+    .section1 h1{font-size:40px;}
+    .section1 h2{font-size:20px;}
+    .nav {left:0px;}
+    .section2 p{margin-left: 150px;}
+    .section2 h1{margin-left: 250px;}
+}   
+@media screen and (min-width:1001px){
+    .section1 h1{font-size:50px;}
+    .section1 h2{font-size:25px;}
+    .nav {left: 250px;}
+    .section2 p{margin-left: 200px;}
+    .section2 h1{margin-left: 350px;}
+}  
 
 
