@@ -13,11 +13,12 @@ $(document).ready(function() {
 		afterLoad: function(anchorLink, index){
 
             //第二页 
+		
 			if(index == 2){
 
-				$('.section2').find('h1').delay(500).animate({
+				$('.section2').find('img').delay(0).animate({
 
-					left: '0'
+					top: '0'
 
 				}, 1000, 'easeOutExpo');
 
@@ -25,32 +26,18 @@ $(document).ready(function() {
 
 			if(index == 2){
 
-				$('.section2').find('p').delay(500).animate({
-
-					bottom: '0'
-
-				}, 1000, 'easeOutExpo');
+				$('.section2').find('h4').fadeIn(2000);
 
 			}
-
-				if(index == 2){
-
-				$('.section2').find('img').delay(500).animate({
-
-					right: '0'
-
-				}, 1000, 'easeOutExpo');
-
-			} 
 			//第三页                   
 
 			if(index == 3){
 
-				$('.section3').find('img').delay(500).animate({
+				$('.section3').find('img').delay(0).animate({
 
 					bottom: '0'
 
-				}, 1500, 'easeOutExpo');
+				}, 1000, 'easeOutExpo');
 
 			}
 
@@ -114,19 +101,9 @@ $(document).ready(function() {
             //第二页 
 			if(index == '2'){
 
-				$('.section2').find('h1').delay(500).animate({
+				$('.section2').find('img').delay(0).animate({
 
-					left: '-120%'
-
-				}, 1000, 'easeOutExpo');
-
-			}
-
-			if(index == '2'){
-
-				$('.section2').find('p').delay(500).animate({
-
-					bottom: '-120%'
+					top: '-120%'
 
 				}, 1000, 'easeOutExpo');
 
@@ -134,21 +111,17 @@ $(document).ready(function() {
 
 			if(index == '2'){
 
-				$('.section2').find('img').delay(500).animate({
-
-					right: '-120%'
-
-				}, 1000, 'easeOutExpo');
+				$('.section3').find('h4').fadeOut(2000);
 
 			}
             //第三页 
 			if(index == '3'){
 
-				$('.section3').find('img').delay(500).animate({
+				$('.section3').find('img').delay(0).animate({
 
 					bottom: '-120%'
 
-				}, 1500, 'easeOutExpo');
+				}, 800, 'easeOutExpo');
 
 			}
 
@@ -194,7 +167,7 @@ $(document).ready(function() {
 			}
 			if(index == '6'){
 
-				$('.section6').find('p').delay(4000).animate({
+				$('.section6').find('p').delay(3000).animate({
 
 					bottom: '-120%'
 
