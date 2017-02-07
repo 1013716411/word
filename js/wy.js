@@ -20,7 +20,7 @@ $(document).ready(function() {
 
 					top: '0'
 
-				}, 1000, 'easeOutExpo');
+				}, 2000, 'easeOutExpo');
 
 			}
 
@@ -37,7 +37,7 @@ $(document).ready(function() {
 
 					bottom: '0'
 
-				}, 1000, 'easeOutExpo');
+				}, 2000, 'easeOutExpo');
 
 			}
 
